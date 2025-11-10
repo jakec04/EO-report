@@ -1,0 +1,46 @@
+---
+title: "Mapping Urban Tree Canopy and Heat Inequities in Chicago"
+subtitle: "A Remote Sensing Analysis of NDVI, Land Surface Temperature, and Environmental Justice Across Neighborhoods."
+author: Jake Cox
+email: jcox41@depaul.edu
+date: 11/10/2025
+format: 
+  html:
+    warning: false
+    error: false
+    code-tools: false
+    code-fold: false
+    eval: false
+    echo: true
+    theme: Sandstone
+    toc: true
+    reference-location: document
+    fontsize: 0.9em
+    interlinespace: -0.75em
+    embed-resources: true
+    number-sections: false
+    number-depth: 1
+    bibliography: references.bib
+editor_options: 
+  chunk_output_type: console
+---
+
+# Research Question
+ How do tree canopy cover and surface heat vary across Chicago’s neighborhoods, and how are these differences correlated with racial and socioeconomic patterns? 
+ 
+# Purpose 
+By using Earth observation techniques—specifically Normalized Difference Vegetation Index (NDVI) derived from Landsat 8/9 imagery and remote thermal sensing alongside Chicago’s urban equity indicators and American Community Survey data, I will identify where tree canopy and surface heat inequities intersect with patterns of race and class across the city. I will then overlay these datasets with Chicago’s census tract and neighborhood boundaries to produce an accessible map that allows residents to see how their own communities compare in environmental equity. 
+
+This is a worth-while project due to the ways that urban canopy is a known indicator for socio-economic status, and by comparing this in Chicago I can see how something that seems trivial—like tree canopy and related urban heat—can reaffirm structural racism and socioeconomic inequity. Urban trees are a benefit to public health; however, research finds that they are often unequally found in poor and minority communities—depriving these groups from the public health advantages that come along with trees. @McDonald2024
+
+Connected to urban tree canopy is urban heat; Urban tree cover provides essential benefits to human health and well-being, from cooling neighborhoods and improving air quality. Yet research consistently shows that these benefits are unequally distributed. A national analysis found that low-income blocks had on average 15.2% less tree cover and were 1.5 °C hotter than high-income blocks, even after controlling for population density and built-up intensity. @Gerrish2018
+
+This information will guide environmental planning at the city and state level to rectify environmental injustice across Chicago—which has some of the worst de facto segregation in the nation. Understanding how tree canopy cover and surface heat variates across the city urban planners and environmental justice advocates will be able to amend Chicago’s inequity. 
+
+# Methodology
+
+I plan to use Landsat 8/9 imagery from June—August 2024, a period with peak vegetation, minimal clouds, and consistent temperatures. The spectral bands, Red and Near Infrared for this analysis, will be used to calculate the Normalized Difference Vegetation Index for areas across the city. I’ll then also use the thermal infrared bands to analyze the urban heat variation (Bands 10,11).  
+
+I’ll then average these variations by census tracts to give a look into the variation from just blocks apart—to across the city. I then hope to join this table to socioeconomic and racial indicators from the American Community Survey @Census to see how the two correlate. Finally, I’ll create a choropleth map overlaid with Chicago’s community areas @ChiData to show how neighborhoods compare. 
+
+# References
