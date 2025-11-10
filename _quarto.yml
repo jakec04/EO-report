@@ -3,3 +3,16 @@ project:
 
 editor: visual
 
+website:
+  title: "EO_Project"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+
+format:
+  html:
+    theme: Sandstone
+    toc: true
+
+output-dir: docs   # this is top-level, not under website
